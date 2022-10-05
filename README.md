@@ -1,5 +1,6 @@
 # ReadMe-Generator
   ## https://github.com/Pogga1/ReadMe-Generator
+  ## https://drive.google.com/file/d/1KDi9jSeM7r12caHWClxOP08dDziXMlPG/view
   # Description
   
 # Table of Contents
@@ -23,7 +24,7 @@ The following necessary dependencies must be installed to run the application: n
   # Tests
   The following is needed to run tests: N/A
   # Questions
-  If you have any questions about the repository contact Andrew Eysoldt directly at : Andreweysoldt@gmai.com.
+  If you have any questions about the repository contact Andrew Eysoldt directly at : Andreweysoldt@gmail.com.
 
 
 
