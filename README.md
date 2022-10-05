@@ -2,7 +2,8 @@
   ## https://github.com/Pogga1/ReadMe-Generator
   ## https://drive.google.com/file/d/1KDi9jSeM7r12caHWClxOP08dDziXMlPG/view
   # Description
-  
+  This project utilizes node.js in order to allow the user to create a professional tier ReadeMe document that contains information unique to the user's needs.
+
 # Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
