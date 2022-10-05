@@ -24,7 +24,7 @@ The following necessary dependencies must be installed to run the application: n
   # Tests
   The following is needed to run tests: N/A
   # Questions
-  If you have any questions about the repository contact Andrew Eysoldt directly at : Andreweysoldt@gmail.com.
+  If you have any questions about the repository contact Andrew Eysoldt directly at : Andreweysoldt@gmail.com
 
 
 
