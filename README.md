@@ -28,5 +28,4 @@ The following necessary dependencies must be installed to run the application: n
 
 
 
-  Have a nice day!!!
   
