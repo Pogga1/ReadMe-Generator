@@ -1,7 +1,7 @@
 // *// TODO: Include packages needed for this application//*
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { generateMarkdown } = require('./generateMarkdown');
+const generateMarkdown = require('./generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [{
@@ -39,9 +39,11 @@ const questions = [{
    message: "Did you use any license(s) for the project"
 },
 {
-    type: 'input',
+    type: 'list',
     name: 'LicenseType',
-    message: 'which license(s) is needed for this project'
+    message: 'which license(s) is needed for this project',
+    choices: ['MIT', 'Apache', 'Boost', 'BDS 3-Clause'],
+    when: (input)=> input.License === true
 },
 {
     type: 'input',
@@ -62,7 +64,14 @@ const questions = [{
 
 // TODO: Create a function to write README file
 const writeToFile = (fileName, data) => {
-    fs.writeFile(filename, data,
+    fs.writeFile(fileName, data, function(err) {
+        console.log(data)
+        if (err) {
+            console.log(err)
+        } else {
+            console.log("README.md succesfully generated!")
+        }
+    })
 }
 
 
